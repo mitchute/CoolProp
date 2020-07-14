@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8.11)
 
+set(CMAKE_CXX_STANDARD 11)
+
 include(CheckIncludeFileCXX)
 
 if (DEFINED COOLPROP_INSTALL_PREFIX)
